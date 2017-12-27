@@ -1,0 +1,178 @@
+WARN  2017-12-26 20:04:09,382 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/67.227.226.240:3478 at local address /192.168.178.24:0
+WARN  2017-12-26 20:40:08,625 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+ERROR 2017-12-26 20:40:09,484 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:40:38,634 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+WARN  2017-12-26 20:40:38,784 (SubscriptionHandler.java:148) received error presence package from saros_959016020@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+WARN  2017-12-26 20:40:53,294 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2017-12-26 20:40:58,849 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2017-12-26 20:40:58,889 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:43:13,635 (SubscriptionHandler.java:148) received error presence package from saros_959016020@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist
+WARN  2017-12-26 20:44:03,816 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+ERROR 2017-12-26 20:44:05,035 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:44:33,818 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+WARN  2017-12-26 20:44:33,950 (SubscriptionHandler.java:148) received error presence package from saros_1399019299@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+ERROR 2017-12-26 20:48:23,960 (CancelableProcess.java:299) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] I/O error occurred
+java.io.IOException: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:128)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.deleteResources(IncomingProjectNegotiation.java:654)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeDiff(IncomingProjectNegotiation.java:623)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeRequiredFiles(IncomingProjectNegotiation.java:569)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.calculateMissingFiles(IncomingProjectNegotiation.java:391)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.run(IncomingProjectNegotiation.java:179)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddProjectToSessionWizard$5.run(AddProjectToSessionWizard.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:126)
+	... 7 more
+ERROR 2017-12-26 20:48:23,963 (CancelableProcess.java:398) cancelled process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros], error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+WARN  2017-12-26 20:49:02,934 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+ERROR 2017-12-26 20:49:04,154 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:49:32,939 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+WARN  2017-12-26 20:49:33,066 (SubscriptionHandler.java:148) received error presence package from saros_167882800@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+ERROR 2017-12-26 20:51:18,264 (CancelableProcess.java:299) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] I/O error occurred
+java.io.IOException: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:128)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.deleteResources(IncomingProjectNegotiation.java:654)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeDiff(IncomingProjectNegotiation.java:623)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeRequiredFiles(IncomingProjectNegotiation.java:569)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.calculateMissingFiles(IncomingProjectNegotiation.java:391)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.run(IncomingProjectNegotiation.java:179)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddProjectToSessionWizard$5.run(AddProjectToSessionWizard.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:126)
+	... 7 more
+ERROR 2017-12-26 20:51:18,267 (CancelableProcess.java:398) cancelled process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros], error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+ERROR 2017-12-26 22:20:58,599 (XMPPConnectionService.java:101) XMPP connection error: 
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2017-12-26 22:20:58,609 (XMPPConnectionService.java:400)  new connection state == ERROR
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2017-12-26 22:20:58,611 (BinaryChannelConnection.java:176) failed to gracefully close connection [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:483)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:42)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:62)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:210)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPByteStreamAdapter.close(XMPPByteStreamAdapter.java:32)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.close(BinaryChannelConnection.java:174)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionPool.close(ConnectionPool.java:50)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.disposeConnection(DataTransferManager.java:510)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectionStateChanged(DataTransferManager.java:520)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.access$1(XMPPConnectionService.java:384)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService$1.connectionClosedOnError(XMPPConnectionService.java:102)
+	at org.jivesoftware.smack.XMPPConnection.notifyConnectionError(XMPPConnection.java:1057)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:321)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)

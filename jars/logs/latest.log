@@ -1,0 +1,39 @@
+[21:55:18] [Client thread/INFO]: Setting user: Player547
+[21:55:18] [Client thread/INFO]: (Session ID is token:0:Player547)
+[21:55:18] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:55:19] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:55:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:55:19] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[21:55:19] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:55:19] [Thread-6/INFO]: OpenAL initialized.
+[21:55:20] [Sound Library Loader/INFO]: Sound engine started
+[21:55:21] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:55:38] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[21:55:38] [Server thread/INFO]: Generating keypair
+[21:55:38] [Server thread/INFO]: Preparing start region for level 0
+[21:55:39] [Server thread/INFO]: Preparing spawn area: 83%
+[21:55:39] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:55:40] [Server thread/INFO]: Player547[local:E:1367dd50] logged in with entity id 223 at (653.943721217692, 68.10408037809304, 241.71958784679381)
+[21:55:40] [Server thread/INFO]: Player547 joined the game
+[21:55:42] [Server thread/INFO]: Saving and pausing game...
+[21:55:42] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:55:43] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:55:43] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:55:43] [Client thread/INFO]: Using default channel type
+[21:55:43] [Client thread/INFO]: Started on 56681
+[21:55:43] [Client thread/INFO]: [CHAT] Local game hosted on port 56681
+[21:55:52] [User Authenticator #1/WARN]: Failed to verify username but will let them in anyway!
+[21:55:52] [Server thread/INFO]: T___D[/192.168.178.24:56726] logged in with entity id 480 at (585.5, 68.0, 174.5)
+[21:55:52] [Server thread/INFO]: T___D joined the game
+[21:55:52] [Client thread/INFO]: [CHAT] T___D joined the game
+[21:55:57] [Server thread/INFO]: T___D has just earned the achievement [Taking Inventory]
+[21:55:57] [Client thread/INFO]: [CHAT] T___D has just earned the achievement [Taking Inventory]
+[21:58:48] [Client thread/INFO]: Stopping!
+[21:58:48] [Client thread/INFO]: SoundSystem shutting down...
+[21:58:48] [Server thread/INFO]: Stopping server
+[21:58:48] [Server thread/INFO]: Saving players
+[21:58:48] [Server thread/INFO]: Saving worlds
+[21:58:48] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:58:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:58:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:58:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

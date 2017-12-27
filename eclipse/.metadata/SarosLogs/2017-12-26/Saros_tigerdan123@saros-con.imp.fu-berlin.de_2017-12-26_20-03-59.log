@@ -1,0 +1,651 @@
+INFO  2017-12-26 20:03:41,838 (Saros.java:220) Starting Saros 14.10.31 running:
+  Java Version: 1.8.0_144
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.12.0.v20160606-1342
+  Operating System: Windows 10 (10.0)
+  Hardware Architecture: amd64
+INFO  2017-12-26 20:03:41,870 (SarosContext.java:153) creating Saros runtime context...
+DEBUG 2017-12-26 20:03:41,911 (XMPPAccountStore.java:117) loading accounts from file: C:\Users\Daniel\.saros\config.dat
+DEBUG 2017-12-26 20:03:42,228 (XMPPAccountStore.java:176) loaded 5 account(s)
+INFO  2017-12-26 20:03:42,422 (SarosContext.java:199) successfully created Saros runtime context
+DEBUG 2017-12-26 20:03:42,451 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+INFO  2017-12-26 20:03:42,475 (PreferenceInitializer.java:50) initializing preference default values
+DEBUG 2017-12-26 20:03:42,513 (SarosAnnotation.java:117) resetting annotation colors
+DEBUG 2017-12-26 20:03:42,518 (Saros.java:430) skipping conversion of old XMPP accounts, because there are already new ones
+DEBUG 2017-12-26 20:03:46,113 (SharedDocumentProvider.java:77) SharedDocumentProvider created by Eclipse
+DEBUG 2017-12-26 20:03:58,040 (WhiteboardManager.java:194) WhiteboardManager instantiated
+DEBUG 2017-12-26 20:03:58,072 (DocumentRecord.java:93) Added Node: attr(151431503806663482) name=svg
+DEBUG 2017-12-26 20:03:58,149 (XMPPConnectionService.java:439) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2017-12-26 20:03:58,393 (XMPPConnectionService.java:459) using autodetected addresses: [192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]
+DEBUG 2017-12-26 20:03:58,399 (XMPPConnectionService.java:398)  new connection state == CONNECTING
+DEBUG 2017-12-26 20:03:59,699 (XMPPConnectionService.java:398) tigerdan123@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2017-12-26 20:03:59,699 (DataTransferManager.java:467) used transport order for the current XMPP connection: [XMPP-Socks5-Transport, XMPP-IBB-Transport]
+DEBUG 2017-12-26 20:03:59,702 (SkypeManager.java:289) Refreshing Skype username cache...
+DEBUG 2017-12-26 20:04:00,427 (DiscoveryManager.java:382) Inserted DiscoveryInfo into Cache for: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+WARN  2017-12-26 20:04:09,382 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/67.227.226.240:3478 at local address /192.168.178.24:0
+DEBUG 2017-12-26 20:39:54,385 (VersionManager.java:90) received version request from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:39:54,391 (VersionManager.java:160) send version response to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+INFO  2017-12-26 20:39:54,825 (InvitationHandler.java:115) received invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [invitation id: -1186319930065493594, session id: 959016020, version: 14.10.31]
+DEBUG 2017-12-26 20:39:56,332 (IncomingSessionNegotiation.java:103) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2017-12-26 20:39:56,336 (IncomingSessionNegotiation.java:188) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending invitation accepted confirmation
+DEBUG 2017-12-26 20:39:56,337 (IncomingSessionNegotiation.java:219) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending session negotiation data
+DEBUG 2017-12-26 20:39:56,337 (IncomingSessionNegotiation.java:232) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : waiting for host's session parameters
+DEBUG 2017-12-26 20:39:56,543 (IncomingSessionNegotiation.java:252) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : received host's session parameters
+DEBUG 2017-12-26 20:39:56,543 (IncomingSessionNegotiation.java:265) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : initializing session
+DEBUG 2017-12-26 20:39:56,544 (MUCNegotiationManager.java:143) Got hosts Communication Config: server conference.saros-con.imp.fu-berlin.de room SAROS_959016020 pw 1276516758
+INFO  2017-12-26 20:39:56,622 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2017-12-26 20:39:56,634 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2017-12-26 20:39:56,640 (SarosSessionManager.java:281) joined uninitialized Saros session
+INFO  2017-12-26 20:39:56,642 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2017-12-26 20:39:56,643 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:39:56,644 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]...
+DEBUG 2017-12-26 20:39:59,298 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3441f4a]
+DEBUG 2017-12-26 20:39:59,299 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]
+WARN  2017-12-26 20:40:08,625 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2017-12-26 20:40:08,632 (Socks5Transport.java:567) [SOCKS5Transport] waiting for feuerrohrtv@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+ERROR 2017-12-26 20:40:09,484 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:40:38,634 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+INFO  2017-12-26 20:40:38,636 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2017-12-26 20:40:38,636 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:40:38,730 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:40:38,731 (IncomingSessionNegotiation.java:304) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : starting session
+DEBUG 2017-12-26 20:40:38,731 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+INFO  2017-12-26 20:40:38,735 (StatisticManager.java:163) Session count: 44
+INFO  2017-12-26 20:40:38,736 (ParticipantCollector.java:134) Session started: Current number of participants: 2
+DEBUG 2017-12-26 20:40:38,736 (MultiUserChatService.java:100) Joining MUC...
+DEBUG 2017-12-26 20:40:38,737 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2017-12-26 20:40:38,738 (XStreamExtensionProvider.java:149) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:40:38,739 (XStreamExtensionProvider.java:194) Registering new converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:40:38,745 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+DEBUG 2017-12-26 20:40:38,753 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2017-12-26 20:40:38,755 (WhiteboardManager.java:108) Preparing Whiteboard for receiving an invitation
+WARN  2017-12-26 20:40:38,784 (SubscriptionHandler.java:148) received error presence package from saros_959016020@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+DEBUG 2017-12-26 20:40:38,830 (ColorUtils.java:21) set foregroundcolor RGB {191, 187, 130}
+DEBUG 2017-12-26 20:40:38,838 (IncomingSessionNegotiation.java:318) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation has completed successfully
+DEBUG 2017-12-26 20:40:38,962 (MultiUserChat.java:297) MUC joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_959016020 Password 1276516758
+DEBUG 2017-12-26 20:40:39,515 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-12-26 20:40:39,516 (MultiUserChatStateManager.java:101) Incoming Message from saros_959016020@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-12-26 20:40:39,516 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-12-26 20:40:39,907 (IncomingSessionNegotiation.java:331) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation complete confirmation sent
+DEBUG 2017-12-26 20:40:40,429 (UserInformationHandler.java:293) received user list from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:40:40,430 (UserInformationHandler.java:317) updating permissions for user: tigerdan123@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:40:40,431 (UserInformationHandler.java:317) updating permissions for user: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:40:40,432 (UserInformationHandler.java:347) sending user list received confirmation to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:40:41,657 (ActivitySequencer.java:546) rcvd (002) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:40:41,662 (ChangeColorManager.java:238) received color id change fo user : feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [2]
+DEBUG 2017-12-26 20:40:41,672 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:40:41,675 (ChangeColorManager.java:238) received color id change fo user : tigerdan123@saros-con.imp.fu-berlin.de/Saros [1]
+DEBUG 2017-12-26 20:40:41,676 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:40:42,495 (CancelableProcess.java:353) process ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2017-12-26 20:40:43,107 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3441f4a]
+DEBUG 2017-12-26 20:40:43,108 (Socks5Transport.java:368) [SOCKS5Transport] receiving request from feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]
+DEBUG 2017-12-26 20:40:43,114 (Socks5Transport.java:624) [SOCKS5Transport] Start to establish new response connection
+WARN  2017-12-26 20:40:53,294 (Socks5Transport.java:411) [SOCKS5Transport] Couldn't accept request but still trying to establish a response connection: Could not establish socket with any provided host
+ERROR 2017-12-26 20:40:58,849 (Socks5Transport.java:440) An error occurred while establishing a response connection 
+item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishResponseSession(Socks5Transport.java:631)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:108)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport$1.call(Socks5Transport.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2017-12-26 20:40:58,889 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+java.io.IOException: [SOCKS5Transport] Neither connection could be established. 
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptNewRequest(Socks5Transport.java:446)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:474)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2017-12-26 20:41:23,530 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@b150275]
+DEBUG 2017-12-26 20:41:23,532 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, inc=true, pool id=default:in:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:41:23,533 (BinaryChannelConnection.java:103) [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2017-12-26 20:41:24,500 (SXEIncomingSynchronizationProcess.java:65) SXE(4659) invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros received
+DEBUG 2017-12-26 20:41:24,501 (SXEController.java:537) Whiteboard state changed from INIT to CONNECTING
+DEBUG 2017-12-26 20:41:24,503 (SXEIncomingSynchronizationProcess.java:87) SXE(4659) queue incoming records from now
+DEBUG 2017-12-26 20:41:24,503 (SarosSXETransmitter.java:151) SXE send accept-state to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros waiting for [state]
+DEBUG 2017-12-26 20:41:25,397 (SXEIncomingSynchronizationProcess.java:99) SXE(4659) state received
+DEBUG 2017-12-26 20:41:25,398 (SXEController.java:137) SXE (4659): receive state and start session at invitee side
+DEBUG 2017-12-26 20:41:25,398 (DocumentRecord.java:93) Added Node: attr(151430878348079010) name=svg
+INFO  2017-12-26 20:41:47,711 (InvitationHandler.java:179) received project negotiation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros with session id: 959016020 and negotiation id: -8245305925533056206
+INFO  2017-12-26 20:41:47,739 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 1 in this session. There are 0 process(es) in this session
+DEBUG 2017-12-26 20:42:58,695 (IncomingProjectNegotiation.java:388) compute required files for project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@684201c1 - P/Client2 with ID: 257940481
+DEBUG 2017-12-26 20:42:58,714 (IncomingProjectNegotiation.java:612) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : computing file list difference
+DEBUG 2017-12-26 20:42:58,719 (IncomingProjectNegotiation.java:583) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : 2298 file(s) must be synchronized
+DEBUG 2017-12-26 20:43:08,033 (CancelableProcess.java:156) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: none
+DEBUG 2017-12-26 20:43:08,037 (CancelableProcess.java:401) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] was cancelled manually by the local user
+DEBUG 2017-12-26 20:43:08,038 (ProjectNegotiation.java:137) notifying remote contact feuerrohrtv@saros-con.imp.fu-berlin.de/Saros of the local project negotiation cancellation
+DEBUG 2017-12-26 20:43:10,431 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:43:10,432 (EditorManager.java:1697) locking all editors
+DEBUG 2017-12-26 20:43:10,435 (ActivitySequencer.java:496) send (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:43:11,047 (CancelableProcess.java:349) executing cancellation for process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:43:11,047 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2017-12-26 20:43:11,049 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2017-12-26 20:43:11,050 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2017-12-26 20:43:11,051 (FeedbackManager.java:104) Session lasted 2 min 32 s
+DEBUG 2017-12-26 20:43:11,052 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2017-12-26 20:43:11,053 (ParticipantCollector.java:145) Session ended: Current number of participants: 2
+DEBUG 2017-12-26 20:43:11,063 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.2
+  data_transfer.IBB.number_of_events=22
+  data_transfer.IBB.total_size_kb=48
+  data_transfer.IBB.total_time_ms=274335
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_144
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 10
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-10-01_17-04-40_790978716
+  role.1.duration=2.54
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=2.54
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=44
+  session.id=959016020
+  session.local.start=2017-12-26T19:43:11Z
+  session.shared.project.complete.count=0
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.2.percent=100
+  session.time.users.2=2.54
+  session.time=2.54
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=false
+INFO  2017-12-26 20:43:11,064 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2017-12-26 20:43:11,733 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-12-26 20:43:13,577 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-12-26 20:43:13,577 (DataTransferManager.java:330) closed connection [pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:43:13,578 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:43:13,578 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:43:13,601 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@7698bb47
+DEBUG 2017-12-26 20:43:13,602 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2017-12-26 20:43:13,603 (DocumentRecord.java:93) Added Node: attr(151431739360342888) name=svg
+INFO  2017-12-26 20:43:13,603 (SarosSessionManager.java:351) session stopped
+DEBUG 2017-12-26 20:43:13,603 (CancelableProcess.java:353) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: CANCEL
+WARN  2017-12-26 20:43:13,635 (SubscriptionHandler.java:148) received error presence package from saros_959016020@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: item-not-found, message: Conference room does not exist
+DEBUG 2017-12-26 20:43:22,418 (VersionManager.java:90) received version request from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:43:22,418 (VersionManager.java:160) send version response to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+INFO  2017-12-26 20:43:22,865 (InvitationHandler.java:115) received invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [invitation id: -6266106660263306865, session id: 1399019299, version: 14.10.31]
+DEBUG 2017-12-26 20:44:01,752 (IncomingSessionNegotiation.java:103) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2017-12-26 20:44:01,753 (IncomingSessionNegotiation.java:188) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending invitation accepted confirmation
+DEBUG 2017-12-26 20:44:01,753 (IncomingSessionNegotiation.java:219) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending session negotiation data
+DEBUG 2017-12-26 20:44:01,754 (IncomingSessionNegotiation.java:232) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : waiting for host's session parameters
+DEBUG 2017-12-26 20:44:01,983 (IncomingSessionNegotiation.java:252) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : received host's session parameters
+DEBUG 2017-12-26 20:44:01,984 (IncomingSessionNegotiation.java:265) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : initializing session
+DEBUG 2017-12-26 20:44:01,984 (MUCNegotiationManager.java:143) Got hosts Communication Config: server conference.saros-con.imp.fu-berlin.de room SAROS_1399019299 pw 1276516758
+INFO  2017-12-26 20:44:01,987 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2017-12-26 20:44:01,988 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2017-12-26 20:44:01,990 (SarosSessionManager.java:281) joined uninitialized Saros session
+INFO  2017-12-26 20:44:01,990 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2017-12-26 20:44:01,990 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:01,990 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]...
+WARN  2017-12-26 20:44:03,816 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2017-12-26 20:44:03,818 (Socks5Transport.java:567) [SOCKS5Transport] waiting for feuerrohrtv@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+DEBUG 2017-12-26 20:44:05,035 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3441f4a]
+DEBUG 2017-12-26 20:44:05,035 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]
+ERROR 2017-12-26 20:44:05,035 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:44:33,818 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+INFO  2017-12-26 20:44:33,820 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2017-12-26 20:44:33,820 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:33,905 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:44:33,905 (IncomingSessionNegotiation.java:304) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : starting session
+DEBUG 2017-12-26 20:44:33,906 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2017-12-26 20:44:33,906 (MultiUserChatService.java:100) Joining MUC...
+INFO  2017-12-26 20:44:33,907 (StatisticManager.java:163) Session count: 45
+DEBUG 2017-12-26 20:44:33,907 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+INFO  2017-12-26 20:44:33,907 (ParticipantCollector.java:134) Session started: Current number of participants: 2
+DEBUG 2017-12-26 20:44:33,908 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:44:33,908 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:44:33,909 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2017-12-26 20:44:33,910 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2017-12-26 20:44:33,911 (WhiteboardManager.java:108) Preparing Whiteboard for receiving an invitation
+WARN  2017-12-26 20:44:33,950 (SubscriptionHandler.java:148) received error presence package from saros_1399019299@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+DEBUG 2017-12-26 20:44:33,956 (ColorUtils.java:21) set foregroundcolor RGB {191, 187, 130}
+DEBUG 2017-12-26 20:44:33,957 (IncomingSessionNegotiation.java:318) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation has completed successfully
+DEBUG 2017-12-26 20:44:33,992 (MultiUserChat.java:297) MUC joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_1399019299 Password 1276516758
+DEBUG 2017-12-26 20:44:34,200 (MultiUserChatStateManager.java:101) Incoming Message from saros_1399019299@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-12-26 20:44:34,200 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-12-26 20:44:34,201 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-12-26 20:44:34,940 (IncomingSessionNegotiation.java:331) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation complete confirmation sent
+DEBUG 2017-12-26 20:44:35,456 (UserInformationHandler.java:293) received user list from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:35,457 (UserInformationHandler.java:317) updating permissions for user: tigerdan123@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:44:35,457 (UserInformationHandler.java:317) updating permissions for user: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:44:35,458 (UserInformationHandler.java:347) sending user list received confirmation to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:36,720 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:36,720 (ChangeColorManager.java:238) received color id change fo user : feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [2]
+DEBUG 2017-12-26 20:44:36,722 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:44:37,541 (CancelableProcess.java:353) process ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2017-12-26 20:44:38,232 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:44:38,232 (ChangeColorManager.java:238) received color id change fo user : tigerdan123@saros-con.imp.fu-berlin.de/Saros [1]
+DEBUG 2017-12-26 20:44:38,234 (SXEIncomingSynchronizationProcess.java:65) SXE(6584) invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros received
+DEBUG 2017-12-26 20:44:38,234 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:44:38,235 (SXEController.java:537) Whiteboard state changed from INIT to CONNECTING
+DEBUG 2017-12-26 20:44:38,236 (SXEIncomingSynchronizationProcess.java:87) SXE(6584) queue incoming records from now
+DEBUG 2017-12-26 20:44:38,236 (SarosSXETransmitter.java:151) SXE send accept-state to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros waiting for [state]
+DEBUG 2017-12-26 20:44:39,452 (SXEIncomingSynchronizationProcess.java:99) SXE(6584) state received
+DEBUG 2017-12-26 20:44:39,453 (SXEController.java:137) SXE (6584): receive state and start session at invitee side
+DEBUG 2017-12-26 20:44:39,453 (DocumentRecord.java:93) Added Node: attr(151431739353240476) name=svg
+INFO  2017-12-26 20:45:01,408 (InvitationHandler.java:179) received project negotiation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros with session id: 1399019299 and negotiation id: 1246655708810845057
+INFO  2017-12-26 20:45:01,409 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 2 in this session. There are 0 process(es) in this session
+DEBUG 2017-12-26 20:45:25,197 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:25,573 (ActivitySequencer.java:546) rcvd (005) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:26,189 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:26,808 (ActivitySequencer.java:546) rcvd (014) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:27,432 (ActivitySequencer.java:546) rcvd (014) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:28,056 (ActivitySequencer.java:546) rcvd (012) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:28,686 (ActivitySequencer.java:546) rcvd (012) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:29,300 (ActivitySequencer.java:546) rcvd (012) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:29,921 (ActivitySequencer.java:546) rcvd (012) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:30,544 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:31,164 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:31,786 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:32,409 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:33,031 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:34,296 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:35,058 (ActivitySequencer.java:546) rcvd (018) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:35,687 (ActivitySequencer.java:546) rcvd (010) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:36,314 (ActivitySequencer.java:546) rcvd (009) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:36,936 (ActivitySequencer.java:546) rcvd (007) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:37,561 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:38,181 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:38,803 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:39,427 (ActivitySequencer.java:546) rcvd (006) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:40,040 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:40,661 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:41,284 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:41,909 (ActivitySequencer.java:546) rcvd (007) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:42,528 (ActivitySequencer.java:546) rcvd (007) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:43,150 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:45:43,773 (ActivitySequencer.java:546) rcvd (008) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:48:23,724 (IncomingProjectNegotiation.java:388) compute required files for project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@877e2601 - P/Client with ID: 1395546005
+DEBUG 2017-12-26 20:48:23,812 (IncomingProjectNegotiation.java:612) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : computing file list difference
+ERROR 2017-12-26 20:48:23,960 (CancelableProcess.java:299) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] I/O error occurred
+java.io.IOException: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:128)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.deleteResources(IncomingProjectNegotiation.java:654)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeDiff(IncomingProjectNegotiation.java:623)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeRequiredFiles(IncomingProjectNegotiation.java:569)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.calculateMissingFiles(IncomingProjectNegotiation.java:391)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.run(IncomingProjectNegotiation.java:179)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddProjectToSessionWizard$5.run(AddProjectToSessionWizard.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:126)
+	... 7 more
+DEBUG 2017-12-26 20:48:23,963 (CancelableProcess.java:156) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+ERROR 2017-12-26 20:48:23,963 (CancelableProcess.java:398) cancelled process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros], error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+DEBUG 2017-12-26 20:48:23,967 (ProjectNegotiation.java:137) notifying remote contact feuerrohrtv@saros-con.imp.fu-berlin.de/Saros of the local project negotiation cancellation
+DEBUG 2017-12-26 20:48:24,163 (CancelableProcess.java:349) executing cancellation for process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:48:24,163 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2017-12-26 20:48:24,163 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2017-12-26 20:48:24,608 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2017-12-26 20:48:24,609 (FeedbackManager.java:104) Session lasted 3 min 50 s
+DEBUG 2017-12-26 20:48:24,610 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2017-12-26 20:48:24,610 (ParticipantCollector.java:145) Session ended: Current number of participants: 2
+DEBUG 2017-12-26 20:48:24,610 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.2
+  data_transfer.IBB.number_of_events=55
+  data_transfer.IBB.total_size_kb=37
+  data_transfer.IBB.total_time_ms=184118
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_144
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 10
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-10-01_17-04-40_790978716
+  role.1.duration=3.85
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=3.85
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=45
+  session.id=1399019299
+  session.local.start=2017-12-26T19:48:24Z
+  session.shared.project.complete.count=0
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.2.percent=100
+  session.time.users.2=3.85
+  session.time=3.85
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=false
+INFO  2017-12-26 20:48:24,611 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2017-12-26 20:48:24,646 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-12-26 20:48:25,689 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-12-26 20:48:25,690 (DataTransferManager.java:330) closed connection [pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:48:25,690 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:48:25,690 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:48:25,708 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@7640a688
+DEBUG 2017-12-26 20:48:25,710 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2017-12-26 20:48:25,710 (DocumentRecord.java:93) Added Node: attr(151431770571069195) name=svg
+INFO  2017-12-26 20:48:25,710 (SarosSessionManager.java:351) session stopped
+DEBUG 2017-12-26 20:48:25,711 (CancelableProcess.java:353) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: ERROR
+DEBUG 2017-12-26 20:48:59,074 (VersionManager.java:90) received version request from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:48:59,074 (VersionManager.java:160) send version response to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+INFO  2017-12-26 20:48:59,527 (InvitationHandler.java:115) received invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [invitation id: -5189415987155127556, session id: 167882800, version: 14.10.31]
+DEBUG 2017-12-26 20:49:00,627 (IncomingSessionNegotiation.java:103) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation accepted
+DEBUG 2017-12-26 20:49:00,628 (IncomingSessionNegotiation.java:188) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending invitation accepted confirmation
+DEBUG 2017-12-26 20:49:00,629 (IncomingSessionNegotiation.java:219) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : sending session negotiation data
+DEBUG 2017-12-26 20:49:00,629 (IncomingSessionNegotiation.java:232) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : waiting for host's session parameters
+DEBUG 2017-12-26 20:49:01,099 (IncomingSessionNegotiation.java:252) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : received host's session parameters
+DEBUG 2017-12-26 20:49:01,100 (IncomingSessionNegotiation.java:265) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : initializing session
+DEBUG 2017-12-26 20:49:01,100 (MUCNegotiationManager.java:143) Got hosts Communication Config: server conference.saros-con.imp.fu-berlin.de room SAROS_167882800 pw 1276516758
+INFO  2017-12-26 20:49:01,101 (StatisticManager.java:184) Current feedback settings:
+  Feedback disabled: false
+  Feedback interval: 5
+  Statistic submission allowed: false
+  Pseudonym submission allowed: false
+INFO  2017-12-26 20:49:01,101 (ErrorLogManager.java:257) Current error log settings:
+  Error log submission allowed: false
+  Full Error log submission allowed: false
+INFO  2017-12-26 20:49:01,102 (SarosSessionManager.java:281) joined uninitialized Saros session
+INFO  2017-12-26 20:49:01,102 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-Socks5-Transport
+DEBUG 2017-12-26 20:49:01,102 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:01,102 (Socks5Transport.java:493) [SOCKS5Transport] establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]...
+WARN  2017-12-26 20:49:02,934 (Socks5Transport.java:544) [SOCKS5Transport] could not establish a connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, remote side could not connect to any offered stream hosts: item-not-found(404) Could not establish socket with any provided host
+DEBUG 2017-12-26 20:49:02,938 (Socks5Transport.java:567) [SOCKS5Transport] waiting for feuerrohrtv@saros-con.imp.fu-berlin.de/Saros to establish a connection...
+DEBUG 2017-12-26 20:49:04,153 (ByteStreamTransport.java:72) received request to establish a  bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1@3441f4a]
+DEBUG 2017-12-26 20:49:04,153 (Socks5Transport.java:311) [SOCKS5Transport] receiving response connection from feuerrohrtv@saros-con.imp.fu-berlin.de/Saroswith local SOCKS5 proxy running [port=7777, configured streamhosts=[192.168.178.24, 2a02:810d:b00:15c8:aca0:57b5:53a:2a65, 2a02:810d:b00:15c8:982b:2054:3c49:7a03, fe80:0:0:0:aca0:57b5:53a:2a65%eth2]]
+ERROR 2017-12-26 20:49:04,154 (ByteStreamTransport.java:105) could not establish bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+Could not establish socket with any provided host: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.cancelRequest(Socks5BytestreamRequest.java:277)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:247)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamRequest.accept(Socks5BytestreamRequest.java:34)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.handleResponse(Socks5Transport.java:315)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.acceptRequest(Socks5Transport.java:471)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport$1.incomingBytestreamRequest(ByteStreamTransport.java:77)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.processRequest(InitiationListener.java:91)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener.access$000(InitiationListener.java:37)
+	at org.jivesoftware.smackx.bytestreams.socks5.InitiationListener$1.run(InitiationListener.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2017-12-26 20:49:32,939 (DataTransferManager.java:415) failed to connect to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros using transport: XMPP-Socks5-Transport
+java.io.IOException: [SOCKS5Transport] waiting for a response session timed out (30000ms) and could not establish a connection from this side, too:
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:592)
+	at de.fu_berlin.inf.dpp.net.internal.ByteStreamTransport.connect(ByteStreamTransport.java:48)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectInternal(DataTransferManager.java:412)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connect(DataTransferManager.java:297)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingSessionNegotiation.accept(IncomingSessionNegotiation.java:167)
+	at de.fu_berlin.inf.dpp.ui.wizards.JoinSessionWizard$2.run(JoinSessionWizard.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: item-not-found(404) Could not establish socket with any provided host
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:54)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:481)
+	at org.jivesoftware.smackx.bytestreams.socks5.Socks5BytestreamManager.establishSession(Socks5BytestreamManager.java:83)
+	at de.fu_berlin.inf.dpp.net.internal.Socks5Transport.establishBinaryChannel(Socks5Transport.java:512)
+	... 6 more
+INFO  2017-12-26 20:49:32,942 (DataTransferManager.java:409) establishing connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros from tigerdan123@saros-con.imp.fu-berlin.de/Saros using transport XMPP-IBB-Transport
+DEBUG 2017-12-26 20:49:32,943 (ByteStreamTransport.java:45) establishing bytestream connection to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:33,017 (DataTransferManager.java:136) bytestream connection changed [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros, inc=false, pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:49:33,017 (IncomingSessionNegotiation.java:304) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : starting session
+DEBUG 2017-12-26 20:49:33,017 (BinaryChannelConnection.java:103) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros ReceiverThread started.
+DEBUG 2017-12-26 20:49:33,018 (MultiUserChatService.java:100) Joining MUC...
+INFO  2017-12-26 20:49:33,018 (StatisticManager.java:163) Session count: 46
+DEBUG 2017-12-26 20:49:33,018 (MultiUserChat.java:264) Trying to create room on server conference.saros-con.imp.fu-berlin.de
+INFO  2017-12-26 20:49:33,019 (ParticipantCollector.java:134) Session started: Current number of participants: 2
+DEBUG 2017-12-26 20:49:33,019 (XStreamExtensionProvider.java:144) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:49:33,019 (ActivityHandler.java:89) activity dispatcher started
+DEBUG 2017-12-26 20:49:33,019 (XStreamExtensionProvider.java:189) Renewing existing converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:49:33,020 (ConsistencyAction.java:173) Inconsistency indicator goes: off
+DEBUG 2017-12-26 20:49:33,020 (WhiteboardManager.java:108) Preparing Whiteboard for receiving an invitation
+DEBUG 2017-12-26 20:49:33,066 (ColorUtils.java:21) set foregroundcolor RGB {191, 187, 130}
+WARN  2017-12-26 20:49:33,066 (SubscriptionHandler.java:148) received error presence package from saros_167882800@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros, condition: not-authorized, message: A password is required to enter this room
+DEBUG 2017-12-26 20:49:33,069 (IncomingSessionNegotiation.java:318) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation has completed successfully
+DEBUG 2017-12-26 20:49:33,112 (MultiUserChat.java:297) MUC joined. Server: conference.saros-con.imp.fu-berlin.de Room: SAROS_167882800 Password 1276516758
+DEBUG 2017-12-26 20:49:33,112 (MultiUserChatStateManager.java:101) Incoming Message from saros_167882800@conference.saros-con.imp.fu-berlin.de/feuerrohrtv@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-12-26 20:49:33,113 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-12-26 20:49:33,328 (MultiUserChat.java:133) processPacket called
+DEBUG 2017-12-26 20:49:33,329 (MultiUserChatStateManager.java:101) Incoming Message from saros_167882800@conference.saros-con.imp.fu-berlin.de/tigerdan123@saros-con.imp.fu-berlin.de/Saros with state: active
+DEBUG 2017-12-26 20:49:33,329 (MultiUserChat.java:79) stateChanged fired with state: active
+DEBUG 2017-12-26 20:49:34,068 (IncomingSessionNegotiation.java:331) ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : invitation complete confirmation sent
+DEBUG 2017-12-26 20:49:34,582 (UserInformationHandler.java:293) received user list from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:34,583 (UserInformationHandler.java:317) updating permissions for user: tigerdan123@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:49:34,583 (UserInformationHandler.java:317) updating permissions for user: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [WRITE_ACCESS]
+DEBUG 2017-12-26 20:49:34,583 (UserInformationHandler.java:347) sending user list received confirmation to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:35,847 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:35,848 (ChangeColorManager.java:238) received color id change fo user : feuerrohrtv@saros-con.imp.fu-berlin.de/Saros [2]
+DEBUG 2017-12-26 20:49:35,848 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:49:36,668 (CancelableProcess.java:353) process ISN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: OK
+DEBUG 2017-12-26 20:49:37,360 (ActivitySequencer.java:546) rcvd (001) feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:49:37,360 (ChangeColorManager.java:238) received color id change fo user : tigerdan123@saros-con.imp.fu-berlin.de/Saros [1]
+DEBUG 2017-12-26 20:49:37,361 (ChangeColorManager.java:634) updating color id set: [tigerdan123@saros-con.imp.fu-berlin.de, feuerrohrtv@saros-con.imp.fu-berlin.de]
+DEBUG 2017-12-26 20:49:37,362 (SXEIncomingSynchronizationProcess.java:65) SXE(9858) invitation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros received
+DEBUG 2017-12-26 20:49:37,372 (SXEController.java:537) Whiteboard state changed from INIT to CONNECTING
+DEBUG 2017-12-26 20:49:37,373 (SXEIncomingSynchronizationProcess.java:87) SXE(9858) queue incoming records from now
+DEBUG 2017-12-26 20:49:37,373 (SarosSXETransmitter.java:151) SXE send accept-state to feuerrohrtv@saros-con.imp.fu-berlin.de/Saros waiting for [state]
+DEBUG 2017-12-26 20:49:38,584 (SXEIncomingSynchronizationProcess.java:99) SXE(9858) state received
+DEBUG 2017-12-26 20:49:38,585 (SXEController.java:137) SXE (9858): receive state and start session at invitee side
+DEBUG 2017-12-26 20:49:38,585 (DocumentRecord.java:93) Added Node: attr(151431772270743661) name=svg
+INFO  2017-12-26 20:50:00,468 (InvitationHandler.java:179) received project negotiation from feuerrohrtv@saros-con.imp.fu-berlin.de/Saros with session id: 167882800 and negotiation id: -7788571079464220945
+INFO  2017-12-26 20:50:00,469 (ProjectNegotiationObservable.java:51) This is ProjectNegotiation number 3 in this session. There are 0 process(es) in this session
+DEBUG 2017-12-26 20:51:18,140 (IncomingProjectNegotiation.java:388) compute required files for project de.fu_berlin.inf.dpp.filesystem.EclipseProjectImpl@877e2601 - P/Client with ID: 1452036352
+DEBUG 2017-12-26 20:51:18,192 (IncomingProjectNegotiation.java:612) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] : computing file list difference
+ERROR 2017-12-26 20:51:18,264 (CancelableProcess.java:299) IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] I/O error occurred
+java.io.IOException: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:128)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.deleteResources(IncomingProjectNegotiation.java:654)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeDiff(IncomingProjectNegotiation.java:623)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.computeRequiredFiles(IncomingProjectNegotiation.java:569)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.calculateMissingFiles(IncomingProjectNegotiation.java:391)
+	at de.fu_berlin.inf.dpp.negotiation.IncomingProjectNegotiation.run(IncomingProjectNegotiation.java:179)
+	at de.fu_berlin.inf.dpp.ui.wizards.AddProjectToSessionWizard$5.run(AddProjectToSessionWizard.java:307)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at de.fu_berlin.inf.dpp.filesystem.EclipseResourceImpl.delete(EclipseResourceImpl.java:126)
+	... 7 more
+DEBUG 2017-12-26 20:51:18,267 (CancelableProcess.java:156) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] was cancelled by the local side, error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+ERROR 2017-12-26 20:51:18,267 (CancelableProcess.java:398) cancelled process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros], error: I/O failure: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+DEBUG 2017-12-26 20:51:18,269 (ProjectNegotiation.java:137) notifying remote contact feuerrohrtv@saros-con.imp.fu-berlin.de/Saros of the local project negotiation cancellation
+DEBUG 2017-12-26 20:51:18,458 (CancelableProcess.java:349) executing cancellation for process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]
+DEBUG 2017-12-26 20:51:18,459 (SarosSessionManager.java:330) terminating all running negotiation processes
+DEBUG 2017-12-26 20:51:18,459 (SarosSessionManager.java:337) Leave message sent.
+DEBUG 2017-12-26 20:51:18,686 (ActivityHandler.java:109) activity dispatcher stopped
+INFO  2017-12-26 20:51:18,686 (FeedbackManager.java:104) Session lasted 1 min 45 s
+DEBUG 2017-12-26 20:51:18,687 (FollowModeCollector.java:177) Processing follow mode changes took 0.0 s
+INFO  2017-12-26 20:51:18,688 (ParticipantCollector.java:145) Session ended: Current number of participants: 2
+DEBUG 2017-12-26 20:51:18,689 (StatisticManager.java:329) Session statistic:
+  auto.followmode.enabled=false
+  data_transfer.IBB.average_throughput_kbs=0.2
+  data_transfer.IBB.number_of_events=17
+  data_transfer.IBB.total_size_kb=32
+  data_transfer.IBB.total_time_ms=164084
+  feedback.disabled=false
+  feedback.survey.interval=5
+  followmode.time.percent=0
+  followmode.time.total=0.0
+  followmode.toggles=0
+  gesture.count=0
+  java.version=1.8.0_144
+  jumped.count=0
+  jumped.driver.count=0
+  jumped.observer.count=0
+  observer.selection.count.witnessed=0
+  observer.selection.count=0
+  os.name=Windows 10
+  platform.version=3.12.0.v20160606-1342
+  random.user.id=2016-10-01_17-04-40_790978716
+  role.1.duration=1.76
+  role.1=write_access
+  role.changes=0
+  role.driver.duration=1.76
+  role.driver.percent=100
+  role.observer.duration=0.0
+  role.observer.percent=0
+  saros.version=14.10.31
+  session.count=46
+  session.id=167882800
+  session.local.start=2017-12-26T19:51:18Z
+  session.shared.project.complete.count=0
+  session.shared.project.partial.count=0
+  session.shared.project.partial.files.count=0
+  session.time.users.2.percent=100
+  session.time.users.2=1.76
+  session.time=1.76
+  session.users.total=2
+  textedits.chars=0
+  textedits.count=0
+  textedits.nonparallel.chars=0
+  textedits.nonparallel.percent=0
+  textedits.pastes.chars=0
+  textedits.pastes=0
+  user.is.host=false
+INFO  2017-12-26 20:51:18,689 (StatisticManager.java:243) User does not allow to submit session statistics
+DEBUG 2017-12-26 20:51:18,741 (EditorManager.java:1697) unlocking all editors
+DEBUG 2017-12-26 20:51:20,016 (BinaryChannelConnection.java:112) [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-12-26 20:51:20,017 (DataTransferManager.java:330) closed connection [pool id=saros-main-session:out:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=saros-main-session] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 20:51:20,017 (XStreamExtensionProvider.java:169) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.SPathConverter
+DEBUG 2017-12-26 20:51:20,017 (XStreamExtensionProvider.java:216) Unregistering (resetting) converter of class de.fu_berlin.inf.dpp.misc.xstream.UserConverter
+DEBUG 2017-12-26 20:51:20,029 (MultiUserChatService.java:135) leaving multi user chat de.fu_berlin.inf.dpp.communication.chat.muc.MultiUserChat@51ff3f1f
+DEBUG 2017-12-26 20:51:20,030 (SharedProjectDecorator.java:93) clearing project decoration for all shared projects
+DEBUG 2017-12-26 20:51:20,030 (DocumentRecord.java:93) Added Node: attr(151431788003023847) name=svg
+INFO  2017-12-26 20:51:20,031 (SarosSessionManager.java:351) session stopped
+DEBUG 2017-12-26 20:51:20,031 (CancelableProcess.java:353) process IPN [remote side: feuerrohrtv@saros-con.imp.fu-berlin.de/Saros] exit status: ERROR
+DEBUG 2017-12-26 22:20:58,571 (DiscoveryManager.java:98) clearing cache entry of contact feuerrohrtv@saros-con.imp.fu-berlin.de/Saros: <query xmlns="http://jabber.org/protocol/disco#info"><identity category="client" name="Smack" type="pc"/><feature var="http://jabber.org/protocol/disco#items"/><feature var="http://jabber.org/protocol/bytestreams"/><feature var="http://jabber.org/protocol/ibb"/><feature var="http://jabber.org/protocol/si"/><feature var="http://jabber.org/protocol/xhtml-im"/><feature var="http://jabber.org/protocol/chatstates"/><feature var="http://jabber.org/protocol/si/profile/file-transfer"/><feature var="urn:xmpp:ping"/><feature var="jabber:iq:last"/><feature var="http://jabber.org/protocol/commands"/><feature var="http://jabber.org/protocol/muc"/><feature var="de.fu_berlin.inf.dpp"/><feature var="http://jabber.org/protocol/disco#info"/></query>
+ERROR 2017-12-26 22:20:58,599 (XMPPConnectionService.java:101) XMPP connection error: 
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2017-12-26 22:20:58,609 (XMPPConnectionService.java:400)  new connection state == ERROR
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:247)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+ERROR 2017-12-26 22:20:58,611 (BinaryChannelConnection.java:176) failed to gracefully close connection [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+java.lang.IllegalStateException: Not connected to server.
+	at org.jivesoftware.smack.XMPPConnection.sendPacket(XMPPConnection.java:483)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:42)
+	at org.jivesoftware.smack.util.SyncPacketSend.getReply(SyncPacketSend.java:62)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.closeByLocal(InBandBytestreamSession.java:210)
+	at org.jivesoftware.smackx.bytestreams.ibb.InBandBytestreamSession.close(InBandBytestreamSession.java:154)
+	at de.fu_berlin.inf.dpp.net.internal.XMPPByteStreamAdapter.close(XMPPByteStreamAdapter.java:32)
+	at de.fu_berlin.inf.dpp.net.internal.BinaryChannelConnection.close(BinaryChannelConnection.java:174)
+	at de.fu_berlin.inf.dpp.net.internal.ConnectionPool.close(ConnectionPool.java:50)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.disposeConnection(DataTransferManager.java:510)
+	at de.fu_berlin.inf.dpp.net.internal.DataTransferManager.connectionStateChanged(DataTransferManager.java:520)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.setConnectionState(XMPPConnectionService.java:405)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService.access$1(XMPPConnectionService.java:384)
+	at de.fu_berlin.inf.dpp.net.xmpp.XMPPConnectionService$1.connectionClosedOnError(XMPPConnectionService.java:102)
+	at org.jivesoftware.smack.XMPPConnection.notifyConnectionError(XMPPConnection.java:1057)
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:321)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:48)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:76)
+DEBUG 2017-12-26 22:20:59,128 (BinaryChannelConnection.java:112) [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros connection closed remotely:null
+DEBUG 2017-12-26 22:20:59,130 (ConnectionPool.java:52) closed connection [id=default:in:feuerrohrtv@saros-con.imp.fu-berlin.de/Saros]: [mode=IBB, id=default] feuerrohrtv@saros-con.imp.fu-berlin.de/Saros
+DEBUG 2017-12-26 22:20:59,131 (XMPPConnectionService.java:398)  new connection state == NOT_CONNECTED
+DEBUG 2017-12-26 23:30:57,290 (UPnPServiceImpl.java:295) deleting existing port mappings
